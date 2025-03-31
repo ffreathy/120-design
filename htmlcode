@@ -1,7 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1.welcome-message {
+            font-size: 36px;
+            margin: 0;
+            text-align: center;
+        }
+    </style>
+</head>
 <body>
-<h1>Welcome </h1>
-<p>ENGR 120 Lab </p>
+    <h1 class="welcome-message">Welcome! Wave your hand in front of the button to start</h1>
 </body>
 </html>
